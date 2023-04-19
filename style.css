@@ -1,0 +1,116 @@
+*{
+    background: lightgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container-one{
+    background:darkgrey;
+    border:2px solid gray;
+    text-align:center;
+    margin:10px ;
+    padding:5px;
+    color:black;
+    box-shadow:10px 10px 30px 0px;   
+}
+#heading{
+    background-color: grey;
+    margin:15px;
+    font-size: 50px;
+    font-weight: 650;
+    font-style: normal;
+    letter-spacing:40px;
+}
+#container-two{
+    background: darkgrey;
+    width: 1000px;
+    height:500px;
+    margin:auto;
+    position:relative;
+    border:2px solid grey;
+    box-shadow:10px 10px 30px 0px;
+}
+#image-puzzle{
+    width:405px;
+    height:405px;
+    position:relative;
+    left:80px;
+    top:45px;
+    border:1px solid black;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;    
+}
+#image-puzzle-one{
+    width:200px;
+    height:200px;
+    background-image: url("image.jpg");
+    background-position: 200px 200px;
+    border:1px solid black;
+}
+#image-puzzle-two{
+    width:200px;
+    height:200px;
+    background-image: url("image.jpg");
+    background-position: 200px 0px;
+    border:1px solid black;
+}
+#image-puzzle-three{
+    width:200px;
+    height:200px;
+    background-image: url("image.jpg");
+    background-position: 0px 200px;;
+    border:1px solid black;
+}
+#image-puzzle-four{
+    width:200px;
+    height:200px;
+    background-image: url("image.jpg");
+    background-position: 0px 0px;
+    border:1px solid black;
+}
+#image-real{
+    width:350px;
+    height:350px;
+    background-image: url("image.jpg");
+    position:absolute;
+    right:80px;
+    top:70px;
+    border:3px solid black;
+}
+.button{
+    width:80px;
+    height:40px;
+    margin:10px;
+    border-radius:10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: grey;
+    transition: 0.2s ease-in-out;
+    padding:5px;
+}
+.button:hover{
+    cursor: pointer;
+    font-size: 25px;
+    width:84px;
+    height:44px;
+}
+#container-three{
+    background: darkgrey;
+    width: 500px;
+    height:100px;
+    position:absolute;
+    left:38%;
+    border:2px solid grey;
+    box-shadow:10px 10px 30px 0px;
+}
+
+#button-one{
+    position:relative;
+    left:110px;
+    top:23px
+}
+#button-two{
+    position:absolute;
+    right: 110px;
+    top:23px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>gridGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container-one">
+        <h1 id="heading">IMAGE GRID GAME</h1>
+    </div>
+    <br>
+    <div id="container-two">
+        <div id="image-puzzle">
+            <div class="image" draggable="true" id="image-puzzle-one"></div>
+            <div class="image" draggable="true" id="image-puzzle-two"></div>
+            <div class="image" draggable="true" id="image-puzzle-three"></div>
+            <div class="image" draggable="true" id="image-puzzle-four"></div>         
+        </div>
+        <div id="image-real"></div>
+    </div>
+    <br>
+    <div id="container-three">
+        <button class="button" id="button-one" onClick="shuffle()">Shuffle</button>
+        <button class="button" id="button-two" onClick="window.location.reload()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
