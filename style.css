@@ -119,3 +119,17 @@
     font-size: 15px;
     color: white;
 }
+#copyright{
+    background-color: grey;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: black 10px 10px 25px;
+}
